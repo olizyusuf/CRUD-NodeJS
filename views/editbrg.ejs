@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Barang</title>
+</head>
+
+<body>
+
+    <form action="/update/<%= tbl_barang.id %>" method="post">
+        <label>Kode Barang</label>
+        <input type="text" name="kd_barang" value="<%= tbl_barang.kd_brg %>">
+        <br>
+        <label>Nama Barang</label>
+        <input type="text" name="nama" value="<%= tbl_barang.nama %>">
+        <br>
+        <label>Harga Beli</label>
+        <input type="text" name="hrg_beli" value="<%= tbl_barang.hrg_beli %>">
+        <br>
+        <label>Harga Jual</label>
+        <input type="text" name="hrg_jual" value="<%= tbl_barang.hrg_jual %>">
+        <input type="submit" value="Perbaharui">
+    </form>
+
+</body>
+
+</html>
