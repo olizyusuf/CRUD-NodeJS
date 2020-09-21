@@ -9,8 +9,8 @@ selanjutnya import mysql
 
 selanjutnya tinggal digunakan sesuai kebutuhan
 
-[Refensi NodeJS dan Express JS](https://progate.com)
-[Refensi tempate Engine EJS](https://ejs.co/#docs)
-[Refensi SQL(https://www.w3schools.com/sql/default.asp)
+*[Refensi NodeJS dan Express JS](https://progate.com)
+*[Refensi tempate Engine EJS](https://ejs.co/#docs)
+*[Refensi SQL](https://www.w3schools.com/sql/default.asp)
 
 
